@@ -2,7 +2,7 @@ import axios from "axios";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { Container } from "@mui/material";
-import SelectMenu from "../../components/common/SelectMenu";
+import SelectMenu from "../../components/SelectMenu";
 import Questions from "../../components/Questions";
 
 export const getStaticProps = async () => {

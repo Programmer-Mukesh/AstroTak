@@ -10,5 +10,42 @@
   .orangeBottomBorder {
     border-bottom: 1px solid #ff7f32;
   }
+  .walletBox {
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #d7defc;
+    display: flex;
+    justify-content: space-between;
 
+    span {
+      color: #5068d1;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    button {
+      color: #5068d1;
+      padding: 1px 13px 3px 13px;
+      background-color: white;
+      border-radius: 8px;
+      font-size: 12px;
+    }
+  }
+  .gridContainer {
+    .MuiTextField-root {
+      margin: 10px 0px 5px 0px;
+    }
+  }
+  .saveChangesBtn {
+    text-align: center;
+    button {
+      background-color: #ff7f32;
+      color: white;
+      text-transform: capitalize;
+      font-family: sofia-pro;
+      font-weight: 300;
+    }
+  }
 }

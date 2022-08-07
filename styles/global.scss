@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap');
-@import url('https://use.typekit.net/yql2hfv.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap");
+@import url("https://use.typekit.net/yql2hfv.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: sofia-pro,'Noto Sans', sans-serif;
+  font-family: sofia-pro, "Noto Sans", sans-serif;
 }
 
 //color: #ff7f32;
@@ -29,14 +29,14 @@
   bottom: 0;
   width: 100%;
   padding: 10px 15px 10px 15px;
-  border-top: 1px solid black;
+  border-top: 1px solid grey;
   background: white;
 }
 
 .footerContainer {
   display: flex;
   justify-content: space-between;
-  
+
   .footerIconName {
     text-align: center;
     display: flex;
@@ -53,12 +53,12 @@
     }
   }
 }
-.hero-container{
+.hero-container {
   margin-bottom: 100px;
 }
 // .select-menu{
 //   ul,li, .MuiButtonBase-root,.MuiInputLabel-root{
 //     font-family: sofia-pro !important;
 //   }
-  
+
 // }
