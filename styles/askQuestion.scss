@@ -1,0 +1,49 @@
+.askContainer {
+  h4 {
+    font-size: 17px;
+    margin: 10px 0px 8px 0px;
+  }
+  p {
+    font-size: 15px;
+    color: #555;
+    font-weight: 300;
+  }
+  .textarea {
+    padding: 5px 0px 5px 3px;
+    width:100%;
+    font-size: 17px;
+    color: #555;
+  }
+  .question-to-select{
+    display: flex;
+    padding: 10px 0px;
+    border-bottom: 1px solid grey;
+  }
+}
+.wallet{
+  padding: 14px ;
+  background-color: #5068d1;
+  display: flex;
+  justify-content: space-between;
+  span{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  button{
+    color: #5068d1;
+    padding: 1px 13px 3px 13px;
+    background-color: white;
+    border-radius: 8px;
+  }
+}
+
+.orange-box{
+  margin: 20px 0px;
+  color: #ff7f32;
+  background-color:  #fef1e9;
+  line-height: 18px;
+  padding: 10px 15px 10px 25px;
+  font-size: 14.2px;
+  font-weight: 300;
+}
