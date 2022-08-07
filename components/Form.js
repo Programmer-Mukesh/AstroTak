@@ -13,7 +13,7 @@ const gridItemSyles = {
   },
 };
 
-const Form = ({ relativeApiData }) => {
+const Form = () => {
   const [gender, setGender] = useState("");
   const [relation, setRelation] = useState("");
   const handleChangeGender = (event) => {
