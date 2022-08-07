@@ -4,24 +4,24 @@ import Button from "@mui/material/Button";
 import Form from "../../components/Form";
 import axios from "axios";
 
-export const getStaticProps = async () => {
-  const relativeAPI = "https://staging-api.astrotak.com/api/relative/all";
-  const tokenStr =
-    "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI4ODA5NzY1MTkxIiwiUm9sZXMiOltdLCJleHAiOjE2NzY0NjE0NzEsImlhdCI6MTY0NDkyNTQ3MX0.EVAhZLNeuKd7e7BstsGW5lYEtggbSfLD_aKqGFLpidgL7UHZTBues0MUQR8sqMD1267V4Y_VheBHpxwKWKA3lQ";
-  let response = await axios.get(relativeAPI, {
-    headers: {
-      "Access-Control-Allow-Origin": "*",
-      "Content-type": "Application/json",
-      Authorization: `Bearer ${tokenStr}`,
-    },
-  });
-  console.log("responsse relativeApiData", response.data);
-  return {
-    props: { relativeApiData: response.data },
-  };
-};
+// export const getStaticProps = async () => {
+//   const relativeAPI = "https://staging-api.astrotak.com/api/relative/all";
+//   const tokenStr =
+//     "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI4ODA5NzY1MTkxIiwiUm9sZXMiOltdLCJleHAiOjE2NzY0NjE0NzEsImlhdCI6MTY0NDkyNTQ3MX0.EVAhZLNeuKd7e7BstsGW5lYEtggbSfLD_aKqGFLpidgL7UHZTBues0MUQR8sqMD1267V4Y_VheBHpxwKWKA3lQ";
+//   let response = await axios.get(relativeAPI, {
+//     headers: {
+//       "Access-Control-Allow-Origin": "*",
+//       "Content-type": "Application/json",
+//       Authorization: `Bearer ${tokenStr}`,
+//     },
+//   });
+//   console.log("responsse relativeApiData", response.data);
+//   return {
+//     props: { relativeApiData: response.data },
+//   };
+// };
 
-const FriendsAndFamily = ({ relativeApiData }) => {
+const FriendsAndFamily = () => {
   // const getData = async () => {
   //   const relativeAPI = "https://staging-api.astrotak.com/api/relative/all";
   //   const tokenStr =
@@ -49,7 +49,7 @@ const FriendsAndFamily = ({ relativeApiData }) => {
   //   getData();
   // }, []);
 
-  console.log("relativeApiData===", relativeApiData);
+  // console.log("relativeApiData===", relativeApiData);
   return (
     <Container className="familyContainer">
       <div className="profileHeading">
