@@ -34,6 +34,10 @@
     }
   }
   .gridContainer {
+    .error {
+      color: red;
+      font-size: 13px;
+    }
     .MuiTextField-root {
       margin: 10px 0px 5px 0px;
     }

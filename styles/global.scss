@@ -18,9 +18,15 @@
   .hamburgerImage {
     min-height: 20px !important;
     min-width: 24px !important;
+    &:hover {
+      cursor: pointer;
+    }
   }
   .profileImage {
     min-height: 30px !important;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
@@ -44,6 +50,9 @@
     font-size: 11px;
     color: grey;
     white-space: nowrap;
+    &:hover {
+      cursor: pointer;
+    }
 
     img {
       min-width: 25px !important;

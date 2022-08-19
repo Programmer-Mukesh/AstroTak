@@ -45,11 +45,10 @@ const FriendsAndFamily = () => {
   //     );
   // };
 
-  // useEffect(() => {
-  //   getData();
-  // }, []);
+  useEffect(() => {
+    //getData();
+  }, []);
 
-  // console.log("relativeApiData===", relativeApiData);
   return (
     <Container className="familyContainer">
       <div className="profileHeading">
@@ -61,10 +60,6 @@ const FriendsAndFamily = () => {
         <button>Add money</button>
       </div>
       <Form />
-      <br />
-      <div className="saveChangesBtn">
-        <Button>Save Changes</Button>
-      </div>
     </Container>
   );
 };
